@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderNavigationComponent } from './header/header-navigation/header-navigation.component';
 import { HeaderContentComponent } from './header/header-content/header-content.component';
 import { AboutComponent } from './about/about.component';
+import { ServiceComponent } from './service/service.component';
+import { ActionComponent } from './action/action.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     HeaderNavigationComponent,
     HeaderContentComponent,
-    AboutComponent
+    AboutComponent,
+    ServiceComponent,
+    ActionComponent
   ],
   imports: [
     BrowserModule,
