@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { ActionComponent } from './action/action.component';
 import { WorkComponent } from './work/work.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WorkComponent } from './work/work.component';
     AboutComponent,
     ServiceComponent,
     ActionComponent,
-    WorkComponent
+    WorkComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
