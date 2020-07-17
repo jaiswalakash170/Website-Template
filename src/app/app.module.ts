@@ -12,6 +12,7 @@ import { ActionComponent } from './action/action.component';
 import { WorkComponent } from './work/work.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BlogComponent } from './blog/blog.component';
     ActionComponent,
     WorkComponent,
     PricingComponent,
-    BlogComponent
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
