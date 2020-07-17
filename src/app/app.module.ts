@@ -14,6 +14,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { PreloaderComponent } from './preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     PricingComponent,
     BlogComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    PreloaderComponent
   ],
   imports: [
     BrowserModule,
