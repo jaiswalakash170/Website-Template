@@ -9,6 +9,7 @@ import { HeaderContentComponent } from './header/header-content/header-content.c
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { ActionComponent } from './action/action.component';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ActionComponent } from './action/action.component';
     HeaderContentComponent,
     AboutComponent,
     ServiceComponent,
-    ActionComponent
+    ActionComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
